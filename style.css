@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    text-align: center;
+    /*padding-top: 3rem; instead u can use this */  line-height: 5rem;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius:50%; /* instead of hovering the img,just applyinhg slight animation usimg flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center ; /* background color black on hovering will be fit within circle*/
+}
+.choice:hover{
+   /* opacity: 0.5;  when u hover on the image it is gng to blur */
+
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* makes the image to be fit , it doesnot look like shriking */
+    border-radius: 50%; /* makes them round */
+
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;  /* estu content erite ast maatyra back color apply agute rather the for whole line */
+    padding: 1rem;
+    border-radius:1rem ;
+ 
+}
