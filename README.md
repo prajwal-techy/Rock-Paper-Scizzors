@@ -22,13 +22,10 @@ It’s a fun way to practice **JS logic**, **event handling**, and **DOM manipul
 | ⚡ **JavaScript** | Game logic and interactivity |
 
 ## 🚀 How to Run  
-1. 📥 Clone or download the project  
+1. 📥 The project  is live @:
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://prajwal-techy.github.io/Rock-Paper-Scizzors/
    ```  
-2. 📂 Open the folder in your editor  
-3. 🌐 Run `index.html` in your browser  
-4. 🎉 Start playing and test your luck!  
 
 ## 🖼️ Screenshots  
 ✨ Game Interface Example:  
